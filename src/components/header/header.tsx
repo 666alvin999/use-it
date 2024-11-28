@@ -3,6 +3,7 @@ import { Menu, Search, ShoppingBag, User } from "lucide-react";
 import Logo from "./logo";
 import style from "./header.module.scss";
 import Banner from "../banner/banner";
+import Link from "next/link";
 
 export default function Header() {
     return (
@@ -13,8 +14,10 @@ export default function Header() {
                     <Button size="icon" variant="ghost">
                         <Search />
                     </Button>
-                    <Button size="icon" variant="ghost">
-                        <User />
+                    <Button size="icon" variant="ghost" asChild>
+                        <Link href="/account">
+                            <User />
+                        </Link>
                     </Button>
                     <Button size="icon" variant="ghost">
                         <ShoppingBag />
