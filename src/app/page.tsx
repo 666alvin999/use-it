@@ -47,16 +47,16 @@ export default function Home() {
                 >
                     <CarouselContent>
                         <CarouselItem>
-                            <Image src="/images/carousel/1.png" alt="Nike Pegasus 41 GORE-TEX" width={500} height={600} />
+                            <Image src="/pegasus-41-gore-tex/1.png" alt="Nike Pegasus 41 GORE-TEX" width={500} height={600} />
                         </CarouselItem>
                         <CarouselItem>
-                            <Image src="/images/carousel/1.png" alt="Nike Pegasus 41 GORE-TEX" width={500} height={600} />
+                            <Image src="/pegasus-41-gore-tex/2.png" alt="Nike Pegasus 41 GORE-TEX" width={500} height={600} />
                         </CarouselItem>
                         <CarouselItem>
-                            <Image src="/images/carousel/1.png" alt="Nike Pegasus 41 GORE-TEX" width={500} height={600} />
+                            <Image src="/pegasus-41-gore-tex/3.png" alt="Nike Pegasus 41 GORE-TEX" width={500} height={600} />
                         </CarouselItem>
                         <CarouselItem>
-                            <Image src="/images/carousel/1.png" alt="Nike Pegasus 41 GORE-TEX" width={500} height={600} />
+                            <Image src="/pegasus-41-gore-tex/4.png" alt="Nike Pegasus 41 GORE-TEX" width={500} height={600} />
                         </CarouselItem>
                     </CarouselContent>
                     {api && (

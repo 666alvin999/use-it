@@ -40,7 +40,7 @@ export default function Account() {
 
                             <div className={style.product}>
                                 <div className={style.image}>
-                                    <img src="/images/carousel/1.png" alt="Nike Pegasus" />
+                                    <img src="/pegasus-41/1.png" alt="Nike Pegasus" />
                                 </div>
                                 <div className={style.details}>
                                     <h3>Nike Pegasus 41</h3>
@@ -80,7 +80,7 @@ export default function Account() {
 
                                 <div className={style.product}>
                                     <div className={style.image}>
-                                        <img src="/images/carousel/1.png" alt="Nike Pegasus" />
+                                        <img src="/pegasus-41/1.png" alt="Nike Pegasus" />
                                     </div>
                                     <div className={style.details}>
                                         <h3>Nike Pegasus 40</h3>
@@ -102,7 +102,7 @@ export default function Account() {
 
                                 <div className={style.product}>
                                     <div className={style.image}>
-                                        <img src="/images/carousel/1.png" alt="Nike Pegasus" />
+                                        <img src="/pegasus-41/1.png" alt="Nike Pegasus" />
                                     </div>
                                     <div className={style.details}>
                                         <h3>Nike Pegasus 40</h3>
