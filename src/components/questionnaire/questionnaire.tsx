@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { Button } from '@/components/ui/button'
 import { Progress } from '@/components/ui/progress'
 import { ArrowRight, ArrowLeft } from 'lucide-react'
+import {useRouter} from "next/navigation";
 
 interface Question {
   id: number
@@ -42,6 +43,8 @@ const questions: Question[] = [
 export default function Questionnaire() {
   const [currentStep, setCurrentStep] = useState(0)
   const [answers, setAnswers] = useState<Record<number, string>>({})
+
+  const router = useRouter();
   
   const progress = ((currentStep + 1) / questions.length) * 100
   const currentQuestion = questions[currentStep]
@@ -63,8 +66,8 @@ export default function Questionnaire() {
   }
 
   const handleSubmit = () => {
-    console.log('Réponses finales:', answers)
-    // Logique de soumission à implémenter ici
+    console.log('Réponses finales:', answers);
+    router.push('/');
   }
 
   return (

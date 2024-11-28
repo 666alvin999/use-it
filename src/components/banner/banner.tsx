@@ -6,7 +6,7 @@ export default function Banner() {
         <div className={style.container}>
             <strong>Louez vos chaussures de sport</strong>
             <p>
-                Livraison gratuite, échange illimité et sans engagement <Link href="/">En savoir plus</Link>
+                Livraison gratuite, échange illimité et sans engagement <Link href="/questionnaire">En savoir plus</Link>
             </p>
         </div>
     )
